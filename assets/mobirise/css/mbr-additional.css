@@ -714,7 +714,7 @@ section.lazy-placeholder:after {
   background-image: url("../../../assets/images/cabine-1120x630.jpg");
 }
 .cid-qTkA127IK8 H1 {
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .cid-s3RSIa4QmU {
   padding-top: 90px;
@@ -1115,7 +1115,7 @@ section.lazy-placeholder:after {
 .cid-s3S4kLIoG3 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-s3S4kLIoG3 .counter-container {
   color: #767676;
@@ -1148,70 +1148,111 @@ section.lazy-placeholder:after {
   height: 40px;
   border-radius: 50%;
 }
-.cid-qTkAaeaxX5 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #260edd;
+.cid-s3SjFjNuVX {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
-@media (max-width: 767px) {
-  .cid-qTkAaeaxX5 .content {
-    text-align: center;
-  }
-  .cid-qTkAaeaxX5 .content > div:not(:last-child) {
-    margin-bottom: 2rem;
-  }
+.cid-s3SjFjNuVX .mbr-section-subtitle {
+  color: #ffffff;
 }
-@media (max-width: 767px) {
-  .cid-qTkAaeaxX5 .media-wrap {
-    margin-bottom: 1rem;
-  }
+.cid-s3SjFjNuVX .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
 }
-.cid-qTkAaeaxX5 .media-wrap .mbr-iconfont-logo {
-  font-size: 7.5rem;
-  color: #f36;
+.cid-s3SjFjNuVX .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
 }
-.cid-qTkAaeaxX5 .media-wrap img {
-  height: 6rem;
+.cid-s3SjFjNuVX .team-item .item-image img {
+  width: 100%;
 }
-@media (max-width: 767px) {
-  .cid-qTkAaeaxX5 .footer-lower .copyright {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-}
-.cid-qTkAaeaxX5 .footer-lower hr {
-  margin: 1rem 0;
-  border-color: #fff;
-  opacity: .05;
-}
-.cid-qTkAaeaxX5 .footer-lower .social-list {
-  padding-left: 0;
+.cid-s3SjFjNuVX .team-item .item-name p {
   margin-bottom: 0;
-  list-style: none;
-  display: flex;
+}
+.cid-s3SjFjNuVX .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-s3SjFjNuVX .team-item .item-social {
+  display: -webkit-flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
 }
-.cid-qTkAaeaxX5 .footer-lower .social-list .mbr-iconfont-social {
-  font-size: 1.3rem;
-  color: #fff;
+.cid-s3SjFjNuVX .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
 }
-.cid-qTkAaeaxX5 .footer-lower .social-list .soc-item {
-  margin: 0 .5rem;
+.cid-s3SjFjNuVX .team-item .item-caption {
+  background: #efefef;
 }
-.cid-qTkAaeaxX5 .footer-lower .social-list a {
+.cid-s3SjIIIV8T {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-s3SjIIIV8T div.b {
+  padding-top: 2rem;
+}
+.cid-s3SjIIIV8T .mbr-text {
+  color: #767676;
   margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  padding-top: 1.5rem;
 }
-.cid-qTkAaeaxX5 .footer-lower .social-list a:hover {
-  opacity: 1;
+.cid-s3SjIIIV8T a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-s3SjIIIV8T .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-s3SjIIIV8T .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-s3SjIIIV8T .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-s3SjIIIV8T .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-s3SjIIIV8T .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.cid-s3SjIIIV8T div.left-block.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 @media (max-width: 767px) {
-  .cid-qTkAaeaxX5 .footer-lower .social-list {
-    justify-content: center;
-    -webkit-justify-content: center;
+  .cid-s3SjIIIV8T div.left-block.wrapper {
+    padding-bottom: 3rem;
   }
+}
+.cid-s3SjPU08xf {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(0deg, #260edd, #0099ff);
+}
+.cid-s3SjPU08xf .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ff3366;
+}
+.cid-s3SjPU08xf .social-list a:focus {
+  text-decoration: none;
+}
+.cid-s3SjPU08xf H2 {
+  color: #ffffff;
 }
